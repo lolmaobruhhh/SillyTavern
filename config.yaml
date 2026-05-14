@@ -15,9 +15,7 @@ basicAuthUser:
   username: "lolmaobruhhh"   # CHANGE THIS
   password: "ahemmm"   # CHANGE THIS
 
-whitelist:
-  - "127.0.0.1"
-  - "::1"
+whitelist: false
 
 # --- Data ---
 dataRoot: "./data"
