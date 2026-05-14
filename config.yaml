@@ -1,0 +1,29 @@
+# ============================================================
+# SillyTavern config.yaml — Render.com deployment
+# ============================================================
+
+# --- Network ---
+listen: true          # MUST be true for Render (binds to 0.0.0.0)
+port: 10000           # Must match your Render PORT setting
+autorun: false        # Don't try to open a browser on the server
+
+# --- Security ---
+whitelistMode: false  # Disabled so Render's traffic can reach it
+basicAuthMode: true   # Password protect your instance
+
+basicAuthUser:
+  username: "lolmaobruhhh"   # CHANGE THIS
+  password: "ahemmm"   # CHANGE THIS
+
+whitelist:
+  - "127.0.0.1"
+  - "::1"
+
+# --- Data ---
+dataRoot: "./data"
+
+# --- Misc ---
+thumbnailsEnabled: true
+allowKeysExposure: false
+skipContentCheck: false
+disableCsrfProtection: false
